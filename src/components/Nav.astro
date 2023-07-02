@@ -1,0 +1,37 @@
+---
+// export interface Props {
+// 	title: string;
+// 	body: string;
+// 	href: string;
+// }
+
+// const { href, title, body } = Astro.props;
+---
+
+<li class="nav">
+	<ul class="nav">
+		<li><a href="/">Home</a></li>
+		<li><a href="/about">About</a></li>
+		<li><a href="/events">Events</a></li>
+	</ul>
+</li>
+<style>
+.nav {
+	list-style: none;
+	color: #fff;
+	margin: 0;
+}
+ul {
+	text-align: center;
+}
+li {
+	max-width: 30%;
+	display: inline;
+	padding: 8px;
+	/* margin: 6px 0px; */
+	text-decoration: none;
+}
+li:hover > a{
+	text-shadow: 0 0 3px #fff;
+}
+</style>
