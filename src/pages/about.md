@@ -14,23 +14,23 @@ Over the years, Local Colors featured fine art ranging from traditional oils, ac
 Every month, all artists were moved to a new spot on the opposite floor. The October 2021 rotation:
 
 <figure>
-	<img alt="Gallery interior." src="/src/assets/2021-10/_1020004.jpg">
+	<img alt="Gallery interior." src="/images/2021-10/_1020004.jpg">
 </figure>
 <figure>
-	<img alt="Gallery interior." src="/src/assets/2021-10/_1020008.jpg">
+	<img alt="Gallery interior." src="/images/2021-10/_1020008.jpg">
 </figure>
 <figure>
-	<img alt="Gallery interior." src="/src/assets/2021-10/_1020034.jpg">
+	<img alt="Gallery interior." src="/images/2021-10/_1020034.jpg">
 </figure>
 <figure>
-	<img alt="Gallery interior." src="/src/assets/2021-10/_1020047.jpg">
+	<img alt="Gallery interior." src="/images/2021-10/_1020047.jpg">
 </figure>
 <figure>
-	<img alt="Gallery interior." src="/src/assets/2021-10/_1020049.jpg">
+	<img alt="Gallery interior." src="/images/2021-10/_1020049.jpg">
 </figure>
 <figure>
-	<img alt="Gallery interior." src="/src/assets/2021-10/_1020052.jpg">
+	<img alt="Gallery interior." src="/images/2021-10/_1020052.jpg">
 </figure>
 <figure>
-	<img alt="Gallery interior." src="/src/assets/2021-10/_1020089.jpg">
+	<img alt="Gallery interior." src="/images/2021-10/_1020089.jpg">
 </figure>

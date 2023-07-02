@@ -14,6 +14,6 @@ Artfully yours,
 The artists at Local Colors Gallery
 
 <figure>
-	<img alt="The Local Colors storefront in March 2021." src="/src/assets/2021-03-lc-exterior.jpg">
+	<img alt="The Local Colors storefront in March 2021." src="images/2021-03-lc-exterior.jpg">
     <figcaption>The Local Colors storefront, March 2021.</figcaption>
 </figure>
