@@ -1,0 +1,71 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Artist from '../components/Artist.astro'
+---
+<Layout title="Local Colors of Utah - Artists">
+	<h2>Artists</h2>
+	<div class="artist-cards">
+		<Artist name="Lawrence Adkinson" subtitle="sculpture" image="lawrence-adkinson" />
+		<Artist name="Perda Adkinson" subtitle="fiber art" image="perda-adkinson" />
+		<Artist name="Jeff Clay" subtitle="photography" image="jeff-clay" />
+		<Artist name="Blaine Clayton" subtitle="watercolor" image="blaine-clayton" />
+		<Artist name="Mary C Jenkins" subtitle="oil painting" image="mary-c-jenkins">
+			<figcaption class="artist-links">
+				<ul>
+					<li><a href="http://marycjenkinsart.com">Personal website</a></li>
+				</ul>
+			</figcaption>
+		</Artist>
+		<Artist name="Brokk Mowrey" subtitle="photography" image="brokk-mowrey" />
+		<Artist name="Jeff Myers" subtitle="acrylic" image="jeff-myers">
+			<figcaption class="artist-links">
+				<ul>
+					<li><a href="https://www.facebook.com/celebratemothernature">Personal website</a></li>
+					<li><a href="https://artatthemain.com/artist/jeff-myers">Gallery: Art at the Main</a></li>
+					<li><a href="https://m.facebook.com/groups/504008778557693/">Digital art Facebook group</a></li>
+				</ul>
+			</figcaption>
+		</Artist>
+		<Artist name="Saint Claire Nelson" subtitle="acrylic" image="st-claire-nelson" />
+		<Artist name="Taryn Pearce" subtitle="mixed media" image="taryn-pearce" />
+		<Artist name="Helene Ramsey" subtitle="acrylic" image="helene-ramsey" />
+		<Artist name="Holly Tanski" subtitle="jewelry" image="holly-tanski" />
+		<figure class="artist-card"></figure>
+	</div>
+</Layout>
+<style>
+.artist-cards {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 16px;
+	justify-content: center;
+	margin-bottom: 8px;
+}
+.artist-links {
+	padding: 0.4rem;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	line-height: 1.4;
+	border-radius: 0rem 0rem 1rem 1rem;
+	color: #fff;
+	background-color: #990000dd;
+	text-align: left;
+}
+.artist-links > ul {
+	margin: 0;
+	list-style-type: "\2192\0000a0";
+}
+.artist-links > li {
+}
+li:hover > a {
+	text-shadow: 0 0 3px #fff;
+}
+.artist-card {
+	display: block;
+	position: relative;
+	margin: 0;
+	flex: 1 1 300px;
+}
+</style>

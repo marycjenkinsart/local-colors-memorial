@@ -5,7 +5,9 @@ title: 'Local Colors of Utah - Events'
 
 ## Events
 
-Local Colors enriched its community through local shows, outdoor events, and as part of the Sugar House Art Walk. Historically, this included classes and plein air events. Its featured shows rotated monthly, showcasing the work of its resident artists, and starting in 2021, a guest artist.
+Local Colors was involved in local shows, outdoor events, and the ongoing [Sugar House Art Walk](https://www.facebook.com/sugarhouseartwalk/). Historically, it also hosted art classes and plein air events.
+
+The gallery's featured shows, which rotated monthly, would highlight the work of one its member artists—and, beginning in 2021, a guest artist as well. Featured artists were celebrated with a prominent front window display and an artist reception.
 
 <figure>
 	<img alt="A crowd inside the gallery, all focused on artist Blaine Clayton." src="/images/2014-sh-plein-air.jpg">

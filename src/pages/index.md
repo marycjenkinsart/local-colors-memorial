@@ -5,9 +5,7 @@ title: 'Local Colors of Utah - Memorial'
 
 ## Local Colors is Closed
 
-With heavy hearts we announce that Local Colors of Utah is now closed.
-
-We’re honored to have had the chance to enrich Sugar House and Salt Lake City for over 20 years. Thank you for being a part of our journey.
+With heavy hearts we announce that Local Colors of Utah is now closed. We’re honored to have had the chance to enrich Sugar House and Salt Lake City for over 20 years. Thank you for being a part of our journey.
 
 Artfully yours,
 

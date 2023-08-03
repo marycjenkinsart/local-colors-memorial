@@ -5,13 +5,13 @@ title: 'Local Colors of Utah - About'
 
 ## About
 
-Until mid 2023, Local Colors of Utah was a fine art gallery located in Sugar House, a social and commercial hotspot of Salt Lake City, Utah.
+Until mid 2023, Local Colors of Utah was a fine art gallery located in Sugar House, a social and commercial hotspot in Salt Lake City, Utah.
 
-Over the years, Local Colors featured fine art ranging from traditional oils, acrylics, and watercolors to glass works, metal sculptures, pottery, and fiber art such as quilts and scarves. All artists were local to Utah, and most to the Salt Lake valley.
+Over the years, Local Colors showcased fine art ranging from traditional oils, acrylics, and watercolors to glass works, metal sculptures, pottery, and fiber art such as quilts and scarves. All artists were local to Utah, and most to the Salt Lake valley.
 
 ### Photo Gallery
 
-Every month, all artists were moved to a new spot on the opposite floor. The October 2021 rotation:
+Each artist's work was moved to a new spot on the opposite floor each month. Photos from October 2021:
 
 <figure>
 	<img alt="Gallery interior." src="/images/2021-10/_1020004.jpg">
