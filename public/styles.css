@@ -1,0 +1,177 @@
+html, body {
+	height: 100%;
+}
+* {
+	font-family: inherit;
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+	margin: 0;
+}
+p {
+	line-height: 1.3em;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 1rem;
+}
+a {
+	color: inherit;
+}
+figure {
+	border: 0;
+	margin: 16px 0;
+}
+figcaption {
+	color: #555;
+	font-size: .8em;
+	text-align: center;
+}
+h1, h2, h3 {
+	color: #910000;
+}
+.header {
+	text-align: center;
+}
+.footer {
+	font-style: italic;
+	text-align: center;
+	color: #c09393;
+	font-size: .8em;
+	padding: 8px;
+	margin: 4px auto;
+}
+.content {
+	max-width: 1000px;
+	padding: 0px 16px;
+	margin: 4px auto;
+	background-color: #910000;
+}
+.content_inner {
+	padding: 8px 16px;
+	background-color: #fff;
+	border-radius: 1rem;
+}
+
+.artist-card {
+	display: inline;
+	position: relative;
+	margin: 0;
+	flex: 1 1 300px;
+}
+.artist-name {
+	font-size: 1.1rem;
+}
+.artist-card > img {
+	border-radius: 1rem;
+	display: block;
+}
+.artist-card-header {
+	padding: 0.4rem;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	line-height: 1.4;
+	border-radius: 1rem 1rem 0rem 0rem;
+	color: #fff;
+	background-color: #990000dd;
+}
+.artist-card-header > span {
+	display: block;
+}
+
+.link-card {
+	list-style: none;
+	display: flex;
+	padding: 0.25rem;
+	background-color: white;
+	background-image: none;
+	background-size: 400%;
+	border-radius: 0.6rem;
+	background-position: 100%;
+	transition: background-position 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
+
+.link-card > a {
+	width: 100%;
+	text-decoration: none;
+	line-height: 1.4;
+	padding: 1rem 1.3rem;
+	border-radius: 0.35rem;
+	color: #111;
+	background-color: white;
+	opacity: 0.8;
+}
+h2 {
+	margin: 0;
+	font-size: 1.25rem;
+	transition: color 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+p {
+	margin-top: 0.5rem;
+	margin-bottom: 0;
+	color: #444;
+}
+.link-card:is(:hover, :focus-within) {
+	background-position: 0;
+	background-image: var(--accent-gradient);
+}
+.link-card:is(:hover, :focus-within) h2 {
+	color: rgb(var(--accent));
+}
+
+.nav {
+	list-style: none;
+	color: #fff;
+	margin: 16px 0px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	gap: 6%;
+}
+.nav > span {
+	display: inline;
+	margin-left: 0;
+	/* margin: 6px 0px; */
+	text-decoration: none;
+}
+span:hover > a {
+	text-shadow: 0 0 3px #fff;
+}
+
+.artist-cards {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 16px;
+	justify-content: center;
+	margin-bottom: 8px;
+}
+.artist-links {
+	padding: 0.4rem;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	line-height: 1.4;
+	border-radius: 0rem 0rem 1rem 1rem;
+	color: #fff;
+	background-color: #990000dd;
+	text-align: left;
+}
+.artist-links > ul {
+	margin: 0;
+	list-style-type: "\2192\0000a0";
+}
+li:hover > a {
+	text-shadow: 0 0 3px #fff;
+}
+.artist-card {
+	display: block;
+	position: relative;
+	margin: 0;
+	flex: 1 1 300px;
+}

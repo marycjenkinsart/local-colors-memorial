@@ -11,38 +11,11 @@ const imageURL = '/images/artists/' + image + '.jpg';
 
 <figure class="artist-card">
 	<img src={imageURL}/>
-	<figcaption>
+	<figcaption class="artist-card-header">
 		<span class="artist-name">{name}</span>
 		<span class="artist-subtitle">({subtitle})</span>
 	</figcaption>
 	<slot />
 </figure>
 <style>
-	.artist-card {
-		display: inline;
-		position: relative;
-		margin: 0;
-		flex: 1 1 300px;
-	}
-	.artist-name {
-		font-size: 1.1rem;
-	}
-	.artist-card > img {
-		border-radius: 1rem;
-		display: block;
-	}
-	.artist-card > figcaption {
-		padding: 0.4rem;
-		position: absolute;
-		width: 100%;
-		top: 0;
-		left: 0;
-		line-height: 1.4;
-		border-radius: 1rem 1rem 0rem 0rem;
-		color: #fff;
-		background-color: #990000dd;
-	}
-	.artist-card > figcaption > span {
-		display: block;
-	}
 </style>

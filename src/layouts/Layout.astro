@@ -16,6 +16,7 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<link rel="stylesheet" href="/styles.css" />
 	</head>
 	<body class="content">
 		<Nav />
@@ -31,60 +32,4 @@ const { title } = Astro.props;
 	</body>
 </html>
 <style is:global>
-html, body {
-	height: 100%;
-}
-* {
-	font-family: inherit;
-	box-sizing: border-box;
-}
-body {
-	font-family: sans-serif;
-	margin: 0;
-}
-p {
-	line-height: 1.3em;
-}
-img {
-	max-width: 100%;
-	max-height: 100%;
-	border-radius: 1rem;
-}
-a {
-	color: inherit;
-}
-figure {
-	border: 0;
-	margin: 16px 0;
-}
-figcaption {
-	color: #555;
-	font-size: .8em;
-	text-align: center;
-}
-h1, h2, h3 {
-	color: #910000;
-}
-.header {
-	text-align: center;
-}
-.footer {
-	font-style: italic;
-	text-align: center;
-	color: #c09393;
-	font-size: .8em;
-	padding: 8px;
-	margin: 4px auto;
-}
-.content {
-	max-width: 1000px;
-	padding: 0px 16px;
-	margin: 4px auto;
-	background-color: #910000;
-}
-.content_inner {
-	padding: 8px 16px;
-	background-color: #fff;
-	border-radius: 1rem;
-}
 </style>
